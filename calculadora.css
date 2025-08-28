@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    padding: 23px;
+    background-color: skyblue;
+    color: white;
+    font-style: oblique;
+}
+
+.Calculadora {
+    width: 320px;
+    margin: auto;
+    border: 3px solid rgb(18, 80, 105);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+button {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: steelblue;
+}
+
+#resultado {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+#logo_brazzino {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+th {
+    background-color: #d0ecff;
+    color: #333;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+#banner-financeiro {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: -20px;
+    border-bottom: 3px solid skyblue;
+}
